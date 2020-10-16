@@ -15,7 +15,7 @@ body {
   padding: 24px;
   max-width: 768px;
   margin: auto;
-  height: 100vh;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,16 +23,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
 }
 
 @media (max-width: 991px) {
   .camp-cont {
-    padding: 24px 12px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    padding: 90px 12px 24px;
   }
 }
 
@@ -934,6 +929,7 @@ html[dir='rtl'] .opt-check .count svg {
   top: 0;
   bottom: 0;
   right: 0;
+  z-index: 999;
 }
 
 @media (max-width: 991px) {
