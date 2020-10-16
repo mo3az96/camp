@@ -940,8 +940,10 @@ html[dir='rtl'] .opt-check .count svg {
 }
 
 .fixed-arrow {
-  top: 47%;
-  left: -11px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: -20px;
   width: 50px !important;
   height: 50px;
   z-index: 3;
@@ -967,12 +969,14 @@ html[dir='rtl'] .opt-check .count svg {
 .fixed-arrow svg {
   width: 23px;
   height: 23px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
   fill: #fff;
 }
 
 .fixed-arrow.active svg {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
 }
 
 @media (max-width: 991px) {
@@ -1073,7 +1077,7 @@ html[dir='rtl'] .opt-check .count svg {
 }
 
 .fixed-info.out {
-  width: 105px;
+  width: 120px;
   padding: 24px 0px;
 }
 
