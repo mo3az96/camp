@@ -1005,6 +1005,7 @@ html[dir='rtl'] .opt-check .count svg {
           align-items: center;
   margin: 0 16px;
   padding: 8px 0;
+  white-space: nowrap;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
@@ -1031,6 +1032,7 @@ html[dir='rtl'] .opt-check .count svg {
   margin-bottom: 4px;
   padding: 8px 16px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  min-width: 278px;
 }
 
 .fixed-box .fixed-footer {
@@ -1074,6 +1076,7 @@ html[dir='rtl'] .opt-check .count svg {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow: hidden;
 }
 
 .fixed-info.out {
